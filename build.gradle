@@ -15,7 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        mavenLocal()
+        maven { url "https://raw.githubusercontent.com/Littlexs/videoface/master" }
     }
 }
 
