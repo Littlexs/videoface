@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="10dp"
+        android:text="请在debug环境下看log日志输出"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:tag="1"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="面签测试" />
+
+    <TextView
+        android:id="@+id/face"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:tag="2"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="人工面签" />
+
+    <TextView
+        android:id="@+id/mface"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:tag="3"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="机器面签" />
+
+    <TextView
+        android:id="@+id/mSetting"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:tag="4"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="机器面签参数配置" />
+    <TextView
+        android:id="@+id/pSetting"
+        android:gravity="center"
+        android:tag="5"
+        android:onClick="onClick"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="人工面签参数设置" />
+
+    <TextView
+        android:id="@+id/uploadFace"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:tag="6"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="上传视频面签文件" />
+    <TextView
+        android:id="@+id/uploadFile"
+        android:gravity="center"
+        android:tag="7"
+        android:onClick="onClick"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="上传文件" />
+    <TextView
+        android:id="@+id/downloadFile"
+        android:gravity="center"
+        android:tag="8"
+        android:onClick="onClick"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="下载文件" />
+
+
+</LinearLayout>

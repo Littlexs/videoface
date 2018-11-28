@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ABFF</color>
+    <color name="colorPrimaryDark">#00ABFF</color>
+    <color name="colorAccent">#00ABFF</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="_00ABFF">#00ABFF</color>
+    <color name="_217FE0">#217FE0</color>
+
+    <!-- 红色 -->
+    <color name="red">#FF3030</color>
+    <color name="_EFEFF4">#EFEFF4</color>
+</resources>

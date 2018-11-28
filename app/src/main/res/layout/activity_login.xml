@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:text="云车视频面签sdk-demo"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="用户名"
+        android:text="zhangsan@yunche.com"
+        android:layout_marginTop="50dp"
+        android:textSize="14sp"
+        android:paddingLeft="20dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <EditText
+        android:id="@+id/pwd"
+        android:hint="密码"
+        android:text="111111"
+        android:paddingLeft="20dp"
+        android:textSize="14sp"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <TextView
+        android:id="@+id/login"
+        android:gravity="center"
+        android:tag="5"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="登录" />
+
+
+</LinearLayout>
